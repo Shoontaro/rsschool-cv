@@ -76,5 +76,26 @@ function generateHashtag (str) {
 }
 ```
 
+***
+
+### My experience: 
+
+
+I have no work experience and I want to get it.
+
+https://codepen.io/Shoontaro
+
+***
+
+### Education
+
+I am a student of the Belarusian State University. 
+I study at the Faculty of Radiophysics and Computer Technologies.
+
+***
+
+
+
+
 
 
