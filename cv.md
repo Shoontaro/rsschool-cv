@@ -87,15 +87,18 @@ https://codepen.io/Shoontaro
 
 ***
 
-### Education
+### Education:
 
 I am a student of the Belarusian State University. 
 I study at the Faculty of Radiophysics and Computer Technologies.
 
 ***
 
+### Language:
 
+| English       |        B2       |
+|:------------- |:---------------:
 
-
+***
 
 
