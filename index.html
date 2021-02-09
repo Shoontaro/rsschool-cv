@@ -52,5 +52,69 @@
       </ul>
       <hr />
     </section>
+    <section>
+      <h2>My skills:</h2>
+      <ul>
+        <li>C++</li>
+        <li>C#</li>
+        <li>Unity</li>
+        <li>Html/CSS</li>
+        <li>Arduino</li>
+        <li>Puthon</li>
+        <li>JS</li>
+        <li>Git</li>
+        <li>SQL</li>
+      </ul>
+      <hr />
+    </section>
+    <section>
+      <h2>Code samples:</h2>
+      <p>This code make hashtag generator.</p>
+      <ul>
+        <li>It must start with a hashtag (#).</li>
+        <li>All words must have their first letter capitalized.</li>
+        <li>
+          If the final result is longer than 140 chars it must return false.
+        </li>
+        <li>
+          If the input or the result is an empty string it must return false.
+        </li>
+      </ul>
+      <code>
+        <pre>
+            function generateHashtag (str) {
+                if(str.length == 0){
+                return false;
+                }
+                let arr = str.split(' ');
+                if(arr[0] == ''){
+                return false;
+                }
+                for(let i =0; i< arr.length; i++){
+                  if ( arr[i] == "" && arr[i+1] == ""){
+                  arr.splice(i, 1);
+                  }
+                  else if(arr[i] == "" && arr[i+1]!=""){
+                  arr.splice(i, 1);
+                    arr[i] = arr[i][0].toUpperCase()+arr[i].slice(1);
+                  }
+                  else{
+                    arr[i] = arr[i][0].toUpperCase()+arr[i].slice(1);
+                }
+                }
+                
+                arr.unshift( "#" );
+                let string = arr.join('');
+                if(string.length > 140){
+                  return false;
+                }
+                return string; 
+              }
+    
+        </pre>
+      </code>
+      <hr />
+    </section>
+      
   </body>
 </html>
