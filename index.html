@@ -23,7 +23,8 @@
         border-radius: 20%;
       }
 
-      section {
+      section, 
+      footer {
         width: 600px;
         margin: auto;
       }
@@ -34,6 +35,7 @@
       <h1>Molchanova Yuliya</h1>
       <img src="https://i.ibb.co/y8BR4Xb/2e4.gif" alt="Yumo" />
     </header>
+    <main>
     <section>
       <h2>My contacts:</h2>
       <ul>
@@ -88,6 +90,7 @@
         <li>JS</li>
         <li>Git</li>
         <li>SQL</li>
+        <li>PHP</li>
       </ul>
       <hr />
     </section>
@@ -104,8 +107,8 @@
           If the input or the result is an empty string it must return false.
         </li>
       </ul>
+      <pre>
       <code>
-        <pre>
             function generateHashtag (str) {
                 if(str.length == 0){
                 return false;
@@ -114,7 +117,7 @@
                 if(arr[0] == ''){
                 return false;
                 }
-                for(let i =0; i< arr.length; i++){
+                for(let i=0; i<arr.length; i++){
                   if ( arr[i] == "" && arr[i+1] == ""){
                   arr.splice(i, 1);
                   }
@@ -134,9 +137,8 @@
                 }
                 return string; 
               }
-    
-        </pre>
       </code>
+      </pre>
       <hr />
     </section>
        <section>
@@ -163,5 +165,10 @@
       </table>
       <hr />
     </section>
+      </main>
+      <footer>
+         <h3>Thanks for attention!</h3>
+      <a href="https://github.com/Shoontaro" target="_blank">My github</a>
+        </footer>
   </body>
 </html>
